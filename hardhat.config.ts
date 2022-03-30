@@ -70,6 +70,9 @@ const config: HardhatUserConfig = {
     kovan: createTestnetConfig("kovan"),
     rinkeby: createTestnetConfig("rinkeby"),
     ropsten: createTestnetConfig("ropsten"),
+    "truffle-dashboard": {
+      url: "http://localhost:24012/rpc"
+    }
   },
   solidity: {
     compilers: [
